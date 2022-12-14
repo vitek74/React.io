@@ -22,7 +22,7 @@ body {
     '.'
     'footer';
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 5px 80px 5px 1fr 5px 80px 5px 80px;
+  grid-template-rows: 80px 5px 80px 5px 1fr 15px 80px 15px 80px;
 }
 
 .header {
@@ -61,10 +61,10 @@ h3 {
     grid-template-areas:
       'header header header header header'
       '. . . . .'
-      'menu . content . sidebar'
+      'menu . content  . sidebar'
       '. . . . .'
       'footer footer footer footer footer';
-    grid-template-columns: 130px 5px 1fr 5px 130px;
+    grid-template-columns: 130px 5px 1fr 5px 130px 5px;
     grid-template-rows: 90px 5px 1fr 5px 90px;
   }
 }
@@ -83,7 +83,7 @@ h3 {
     '.'
     'footer';
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 5px 80px 5px 1fr 5px 80px 5px 80px;
+  grid-template-rows: 80px 5px 80px 5px 1fr 5px 80px 5px 80px 5px;
 }
 
 .grid-container {
@@ -92,9 +92,9 @@ h3 {
   grid-template-areas:
     'header header header header header'
     '. . . . .'
-    'menu . content . sidebar'
+    'menu . content  . sidebar'
     '. . . . .'
     'footer footer footer footer footer';
-  grid-template-columns: 130px 5px 1fr 5px 130px;
+  grid-template-columns: 130px 5px 1fr 5px 80px 5px;
   grid-template-rows: 90px 5px 1fr 5px 90px;
 }
