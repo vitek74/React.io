@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import './Header.css';
-import clock from './clock';
+
 
 
 const Header = () => {
